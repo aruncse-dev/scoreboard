@@ -1,33 +1,33 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-  <!-- Background -->
-  <rect width="512" height="512" rx="96" fill="#04080f"/>
+  <!-- Circular background -->
+  <circle cx="256" cy="256" r="256" fill="#04080f"/>
 
-  <!-- Gold accent bar top -->
-  <rect x="0" y="0" width="512" height="8" rx="4" fill="#f5c518"/>
+  <!-- Inner glow ring -->
+  <circle cx="256" cy="256" r="248" fill="none" stroke="#f5c518" stroke-width="4" opacity="0.3"/>
 
-  <!-- Cricket bat (handle + blade) -->
-  <!-- Handle -->
-  <rect x="230" y="60" width="28" height="130" rx="14" fill="#b8920e"/>
-  <!-- Grip wrap lines -->
-  <rect x="230" y="80" width="28" height="4" rx="2" fill="#04080f" opacity="0.4"/>
-  <rect x="230" y="96" width="28" height="4" rx="2" fill="#04080f" opacity="0.4"/>
-  <rect x="230" y="112" width="28" height="4" rx="2" fill="#04080f" opacity="0.4"/>
-  <rect x="230" y="128" width="28" height="4" rx="2" fill="#04080f" opacity="0.4"/>
-  <!-- Blade -->
-  <rect x="195" y="180" width="98" height="210" rx="20" fill="#f5c518"/>
-  <!-- Blade ridge -->
-  <rect x="240" y="188" width="12" height="194" rx="6" fill="#b8920e"/>
-  <!-- Shoulder curve -->
-  <ellipse cx="244" cy="182" rx="50" ry="18" fill="#f5c518"/>
+  <!-- Cricket bat handle -->
+  <rect x="234" y="72" width="24" height="110" rx="12" fill="#b8920e"/>
+  <!-- Grip lines -->
+  <rect x="234" y="90"  width="24" height="3" rx="1.5" fill="#04080f" opacity="0.35"/>
+  <rect x="234" y="104" width="24" height="3" rx="1.5" fill="#04080f" opacity="0.35"/>
+  <rect x="234" y="118" width="24" height="3" rx="1.5" fill="#04080f" opacity="0.35"/>
+  <rect x="234" y="132" width="24" height="3" rx="1.5" fill="#04080f" opacity="0.35"/>
+
+  <!-- Bat blade -->
+  <rect x="200" y="175" width="92" height="185" rx="18" fill="#f5c518"/>
+  <!-- Shoulder -->
+  <ellipse cx="246" cy="178" rx="47" ry="16" fill="#f5c518"/>
+  <!-- Ridge -->
+  <rect x="241" y="183" width="10" height="170" rx="5" fill="#b8920e"/>
 
   <!-- Stumps -->
-  <rect x="152" y="340" width="14" height="110" rx="7" fill="#eef2ff"/>
-  <rect x="242" y="340" width="14" height="110" rx="7" fill="#eef2ff"/>
-  <rect x="332" y="340" width="14" height="110" rx="7" fill="#eef2ff"/>
+  <rect x="148" y="322" width="12" height="100" rx="6" fill="#eef2ff"/>
+  <rect x="244" y="322" width="12" height="100" rx="6" fill="#eef2ff"/>
+  <rect x="340" y="322" width="12" height="100" rx="6" fill="#eef2ff"/>
   <!-- Bails -->
-  <rect x="148" y="334" width="34" height="10" rx="5" fill="#f5c518"/>
-  <rect x="238" y="334" width="34" height="10" rx="5" fill="#f5c518"/>
+  <rect x="144" y="315" width="30" height="9" rx="4.5" fill="#f5c518"/>
+  <rect x="240" y="315" width="30" height="9" rx="4.5" fill="#f5c518"/>
 
-  <!-- Score text -->
-  <text x="256" y="490" font-family="Arial Black, sans-serif" font-size="42" font-weight="900" fill="#f5c518" text-anchor="middle" letter-spacing="-1">SCORE</text>
+  <!-- "SB" score text -->
+  <text x="256" y="455" font-family="Arial Black, Arial, sans-serif" font-size="52" font-weight="900" fill="#f5c518" text-anchor="middle" letter-spacing="2">SB</text>
 </svg>
